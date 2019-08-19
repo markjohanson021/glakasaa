@@ -17,7 +17,7 @@
       <meta property="og:description" content="Protect your Privacy! Use Free Phone numbers to receive SMS messages online. Choose a number and receive instant SMS messages." />
       <meta property="og:image" content="https://receiveafreesms.com/og-image.png" />
       <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-      <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+      <link rel="shortcut icon" type="image/png" href="favicon.png"/>
       <style type="text/css">a,img{outline:0}*{margin:0;padding:0}ol,ul{list-style:none}img{border:none}a{text-decoration:none;cursor:pointer}.cf:after,.cf:before{content:" ";display:table}.cf:after{clear:both}body{-webkit-text-size-adjust:none;-moz-text-size-adjust:none;-ms-text-size-adjust:none;-o-text-size-adjust:none;text-size-adjust:none}</style>
       <style type="text/css">
          body{background:#fff;}
@@ -144,20 +144,14 @@
          ul li span.cta-arw, ul li:hover span.cta-arw{float: right;margin-right: 20px;line-height: 28px;font-size: 35px; line-height: -2px; color: #fb5957;}
          }
       </style>
-      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-5666765820863182",
-    enable_page_level_ads: true
-  });
-</script>
+      
    </head>
    <body>
       <div class="header">
          <div class="inner-header">
             <a href="https://receiveafreesms.com/" >
             <a id='anchorResultsLogoImg1' href='https://receiveafreesms.com/'>
-            <img align="left" src="/logo.png"  border="0" id="ResultsLogoImg1" width="auto" height="auto" >
+            <img align="left" src="logo.png"  border="0" id="ResultsLogoImg1" width="auto" height="auto" >
             </a>
             </a>
          </div>
@@ -172,7 +166,7 @@
             <div id="search" style="margin-top: 10px;">
                <div id='message-box'>
                   <div style="text-align: center;">
-                        <img src="/small-loading.gif" alt="Loading SMS Message" style="text-align: center;">
+                        <img src="small-loading.gif" alt="Loading SMS Message" style="text-align: center;">
                   </div>
                </div>
             </div>
@@ -198,7 +192,7 @@
                </li>
                <div id="list">
                      <div style="text-align: center;">
-                           <img src="/small-loading.gif" alt="Loading SMS Message" style="text-align: center;">
+                           <img src="small-loading.gif" alt="Loading SMS Message" style="text-align: center;">
                      </div>
                </div>
             </ul>
@@ -270,7 +264,7 @@
                var lowerCase = dec.replace(" ", "-");
                var imageFlag = lowerCase.toLowerCase();
                console.log(imageFlag);
-               document.getElementById("country-flag").innerHTML = "<img src='/" + imageFlag + ".png' width='20' >";
+               document.getElementById("country-flag").innerHTML = "<img src='" + imageFlag + ".png' width='20' >";
            }
          
            function myP(value){
@@ -288,7 +282,7 @@
            // Display Messages //
            function rHTML(data) {
                htmlStringList = "";
-               htmlStringNumber = "<div style='width: 100%;margin: 0 auto;max-width: 940px;'> <div style='padding: 2px 16px;background-color: #f1f1f1;'> <h3 style='text-align:center;'><span id='country-flag' ></span> " + data[c].gsx$number.$t + "</h3></div><br></span><div style='padding: 2px 16px;background-color: #fff;'> <h2><span style='font-weight:bold;'>From: " + data[c].gsx$sender.$t + "<span></h2><p><span style='font-weight:bold;'>Message:</span> "+ data[c].gsx$msg.$t + "</span></p> </div><br><div style='padding: 2px 16px;background-color: #f1f1f1;'> <p style='font-size: 16px;text-align:center;'><img src='/favicon.png' height='13px'> Received: <span style='background: #fb5957;padding: 2px;color:#fff;font-size:16px;font-weight:bold;'>" + data[c].gsx$time.$t + "</span></p> </div> </div>";
+               htmlStringNumber = "<div style='width: 100%;margin: 0 auto;max-width: 940px;'> <div style='padding: 2px 16px;background-color: #f1f1f1;'> <h3 style='text-align:center;'><span id='country-flag' ></span> " + data[c].gsx$number.$t + "</h3></div><br></span><div style='padding: 2px 16px;background-color: #fff;'> <h2><span style='font-weight:bold;'>From: " + data[c].gsx$sender.$t + "<span></h2><p><span style='font-weight:bold;'>Message:</span> "+ data[c].gsx$msg.$t + "</span></p> </div><br><div style='padding: 2px 16px;background-color: #f1f1f1;'> <p style='font-size: 16px;text-align:center;'><img src='favicon.png' height='13px'> Received: <span style='background: #fb5957;padding: 2px;color:#fff;font-size:16px;font-weight:bold;'>" + data[c].gsx$time.$t + "</span></p> </div> </div>";
            
          
                for (i=1; i < data.length;i++){
